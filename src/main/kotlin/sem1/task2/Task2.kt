@@ -17,8 +17,8 @@ fun sumAll(vararg numbers: Int): Int =  numbers.sum()
 
 fun createOutputString(name: String, age: Int = 42, isStudent: Boolean? = null): String =
      when (isStudent) {
-         true -> "student ${name} has age ${age}"
-         else -> "${name} has age ${age}"
+         true -> "student ${name} has age of${age}"
+         else -> "${name} has age of${age}"
      }
 
     fun multiplyBy(first:Int?, second:Int):Int? =
