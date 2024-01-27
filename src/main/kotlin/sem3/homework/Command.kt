@@ -32,7 +32,6 @@ class Show() : Command {
 
 }
 
-
 class Add : Command {
     private var name = ""
     private var emailPerson: String = ""
@@ -141,10 +140,11 @@ class Help : Command {
     val HELP = """You can use next commands:
          |1. Help
          |2. Add
-         |3. Show
-         |4. Exit
+         |3. Show ---> You should enter the name!
+         |4. Find ---> You should enter the phone number or email address!
+         |5. Exit
          |
-         |When you entered, you should enter name and choose what
+         |When you entered add, you should enter name and choose what
          |do you want to enter (Phone or Email).
          |When you enter phone number you should use only numbers.
          |Phone number can start with <+>
