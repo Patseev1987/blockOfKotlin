@@ -1,6 +1,6 @@
 package sem2.homework
 
-class Person(val name: String) {
+data class Person(val name: String) {
 
     val emails: MutableSet<String> = LinkedHashSet()
     val phones: MutableSet<String> = LinkedHashSet()

@@ -142,7 +142,7 @@ class Help : Command {
          |3. Show
          |4. Exit
          |
-         |When you entered, you should enter name and choose what
+         |When you entered add, you should enter name and choose what
          |do you want to enter (Phone or Email).
          |When you enter phone number you should use only numbers.
          |Phone number can start with <+>
